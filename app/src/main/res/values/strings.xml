@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TestAuthApp</string>
+
+    //Login page strings
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="authorization">Авторизация</string>
+    <string name="create">Создать</string>
+
+    //Errors
+    <string name="error_geo_permission">Пожалуйста, предоставьте приложению доступ к геолокации</string>
+    <string name="error_get_coordinates">Ошибка при получении координат</string>
+    <string name="error_empty_field">Поле не может быть пустым</string>
+    <string name="error_wrong_email">Некорректный формат email</string>
+    <string name="error_wrong_password">Пароль должен содержать минимум 1 строчную букву, 1 заглавную, и 1 цифру</string>
+    <string name="error_short_password">Пароль должен содержать не менее 6 символов</string>
+    <string name="error_user_already_exists">Пользователь уже существует</string>
+    <string name="error_no_internet">Отсутствует подключение к интернету</string>
+
+    //Auth results
+    <string name="registration_result_success">Пользователь успешно создан</string>
+    <string name="registration_result_error">При создании пользователя произошла ошибка</string>
+    <string name="login_result_error">Данного пользователя не существуют</string>
+
+    //Weather result
+    <string name="weather_query_success">Погода в городе %1$s — %2$d°C (%3$s)</string>
+    <string name="weather_query_error">Ошибка при получении данных о погоде</string>
+
+    //Hints
+    <string name="tooltip_hint">Пароль должен содержать не менее 6 символов, минимум 1 строчную букву, 1 заглавную, и 1 цифру</string>
+</resources>

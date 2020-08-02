@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Application colors
+    <color name="colorPrimary">#4680ff</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#6200EE</color>
+    <color name="colorStatusBar">#f4f4f4</color>
+    //Common colors
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGray">#D5D5D5</color>
+    //Login page colors
+    <color name="loginButtonColorNormal">#8900a8</color>
+    <color name="loginButtonColorPressed">#9A11B9</color>
+    <color name="toolbarTitleColor">#3d3d3d</color>
+    <color name="toolbarButtonColor">#8900a8</color>
+    //Snackbar colors
+    <color name="snackbarSuccessColor">#00574B</color>
+    <color name="snackbarErrorColor">#A41A00</color>
+    <color name="snackbarNeutralColor">#0B2139</color>
+</resources>
