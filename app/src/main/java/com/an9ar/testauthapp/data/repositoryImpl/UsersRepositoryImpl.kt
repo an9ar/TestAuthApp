@@ -31,7 +31,7 @@ class UsersRepositoryImpl @Inject constructor(
     override fun checkUserForExistence(email: String, password: String): Completable =
         userDao.checkUserForExistence(email = email, password = password)
             .subscribeOn(Schedulers.io())
-            .flatMapCompletable{ result ->
+            .flatMapCompletable{
                 Completable.error(AuthException.UserAlreadyExistsException)
             }
 }

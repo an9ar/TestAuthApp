@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     @Inject
     lateinit var viewModel: MainViewModel
-    var locationPermissionGranted: Boolean = false
+    private var locationPermissionGranted: Boolean = false
 
     companion object{
         const val PERMISSIONS_REQUEST_CODE = 10
@@ -91,17 +91,6 @@ class MainActivity : AppCompatActivity() {
         }
         et_password.setOnTouchListener(object : DrawableClickListener.RightDrawableClickListener(et_password) {
             override fun onDrawableClick(): Boolean {
-                /*ViewTooltip
-                    .on(this@MainActivity, et_password)
-                    .autoHide(true, 3000)
-                    .clickToHide(true)
-                    .corner(30)
-                    .arrowWidth(45)
-                    .position(ViewTooltip.Position.TOP)
-                    .customView(R.layout.custom_tooltip_view)
-                    .text(getString(R.string.tooltip_hint))
-                    .color(resources.getColor(R.color.colorPurple))
-                    .show()*/
                 TooltipDelegate(this@MainActivity)
                     .showTooltip(et_password, getString(R.string.tooltip_hint), true)
                 return true

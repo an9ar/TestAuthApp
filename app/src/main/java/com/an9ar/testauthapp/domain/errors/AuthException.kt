@@ -9,6 +9,5 @@ object AuthException {
     object EmptyPasswordException : Exception()
 
     //Auth exceptions
-    object UserNotFoundException : Exception()
     object UserAlreadyExistsException : Exception()
 }
